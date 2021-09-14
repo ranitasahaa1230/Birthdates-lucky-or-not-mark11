@@ -12,17 +12,14 @@ h1{
 }
 
 .privacy{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
-    color:brown;
-      
-}
-.container{
     border-style: solid;
-    width: 50rem;
-    margin-left: 21rem;
-    color: rgb(255, 60, 0);
-
+    width: 25rem;
+    margin-left: 35rem;
+    color: white;
+    background-color: black;
+    
 }
 
 label{
@@ -32,15 +29,16 @@ label{
     font-size: 1.5rem;
     font-weight: 650;
     color:black;
+    margin-top: 1rem;
 }
 
 input{
     display: block;
     width:18rem;
-    margin-left: 15rem;
-    padding: 1.5rem;
+    padding: 1.3rem;
+    margin-left: 38rem;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 4px;
     border-radius: 8px;
     height: 12px;
@@ -49,7 +47,7 @@ input{
 button{
     font-size: 1.4rem;
     background-color: rgb(43, 226, 52);
-    color: aliceblue;
+    color:white;
     padding: 5px;
     margin-left: 1.5rem;
 }
@@ -62,5 +60,5 @@ button{
 }
 
 footer{
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
