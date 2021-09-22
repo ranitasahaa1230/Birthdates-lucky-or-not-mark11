@@ -23,7 +23,7 @@ h1{
 
 .container{
     border: 2px solid black;
-    width:50vw;
+    max-width:40vw;
     margin: auto;
     padding: 1rem;
     padding-bottom: 0.5rem;
@@ -44,10 +44,10 @@ label{
 input{
     display: block;
     margin:auto;
-    width: 20.3rem;
+    width: 18.9rem;
     margin-top: 0.2rem;
     padding: 1rem;
-    font-size: large;
+    font-size: 1.4rem;
     border-radius: 14px;
 }
 
@@ -108,5 +108,8 @@ img:hover{
 @media (min-width: 768px) and (max-width: 1199.98px){
     body {
       background-color: lightpink;
+    }
+    input{
+        margin: auto;
     }
   }
