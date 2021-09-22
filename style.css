@@ -1,64 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     text-align: center;
-    color:#a52a90;
-    margin: 0;
-    background-color:rgb(0, 255, 179);
-    
+    font-size: 1.5rem;
 }
 
 h1{
-    margin: 2rem;
-    font-size: 2.5rem;
-}
-
-.privacy{
-    font-size: 1.3rem;
-    font-weight: 500;
-    border-style: solid;
-    width: 25rem;
-    margin-left: 35rem;
-    color: white;
-    background-color: black;
-    
+    padding-top: 2rem;
+    color:brown;
+    margin-bottom: 1.3rem;
 }
 
 label{
     display: block;
-    align-items: center;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
+    margin-bottom: 1rem;
     font-weight: 650;
-    color:black;
+    text-align: center;
+    color:green;
+    padding-top: 1rem;
+    font-size: 2rem;
     margin-top: 1rem;
 }
 
 input{
     display: block;
-    width:18rem;
-    padding: 1.3rem;
-    margin-left: 38rem;
-    font-weight: 500;
-    font-size: 1.2rem;
-    margin-top: 4px;
-    border-radius: 8px;
-    height: 12px;
+    margin:auto;
+    width: 20.3rem;
+    margin-top: 0.2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 14px;
+}
+
+.privacy{
+    font-size: 1.7rem;
+    color: white;
+    background-color: black;
+    width: 30vw;
+    margin: auto;    
 }
 
 button{
-    font-size: 1.4rem;
-    background-color: rgb(43, 226, 52);
-    color:white;
-    padding: 5px;
-    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    color: aliceblue;
+    margin:auto;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-bottom: 0.6rem;
+
 }
 
 #output{
     font-size: 2rem;
-    padding: 2rem;
+    padding: 1.2rem;
     font-weight: 600;
     color: blue;
+    
+    
 }
 
 footer{
-    margin-top: 5rem;
+    text-align: center;
+    background-color:#6B7280;  
 }
+
+p{
+    font-size: 2rem;
+    color:white;
+    font-family: 'Merienda', cursive;
+    padding: 0.8rem;
+}
+
+img{
+    height: 2rem;
+    width: 2rem;
+    margin: 0.2rem;
+    box-shadow:0px 0px 10px 0px black;
+}
+
+img:hover{
+    background-color: blue;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+    body {
+      background-color: lightpink;
+    }
+  }
