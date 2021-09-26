@@ -21,7 +21,7 @@ h1{
     margin-bottom: 0.8rem;
 }
 
-.container{
+#form{
     border: 2px solid black;
     max-width:40vw;
     margin: auto;
@@ -54,7 +54,7 @@ input{
 .privacy{
     font-size: 1.7rem;
     color: white;
-    background-color: black;
+    background-color:#130202;
     width: 30vw;
     margin: auto; 
     padding: 0.3rem;

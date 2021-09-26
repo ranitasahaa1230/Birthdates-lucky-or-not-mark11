@@ -1,11 +1,15 @@
 const dateOfBirth=document.querySelector('#date-of-birth');
 const luckyNumber=document.querySelector('#lucky-number');
-const submitBtn=document.querySelector('#check-number');
+// const submitBtn=document.querySelector('#submit');
 const outputEl=document.querySelector('#output');
+let form = document.querySelector('#form');
 
-submitBtn.addEventListener('click', birthdayLucky);
 
-function birthdayLucky(){
+form.addEventListener('submit', birthdayLucky);
+
+function birthdayLucky(e){
+    e.preventDefault();
+    
     const dob=dateOfBirth.value;
     const luckyNo=luckyNumber.value;
     const sum=birthdaySum(dob);
@@ -30,9 +34,9 @@ function birthdaySum(dob){
 function compareValue(add,luckyNumbers){
     // console.log(sum,luckyNo);
     if(add%luckyNumbers===0){
-        outputEl.innerText="Yayyy! Your birthday is lucky!🤩🎉"
+        outputEl.innerText="Hurray! Your birthday is lucky! 🤩🎉"
     }else{
-        outputEl.innerText="OOps! Your birthday is unlucky!😕"
+        outputEl.innerText="Oops!!Your birthday is not a lucky number! 😕"
     }
 }
 

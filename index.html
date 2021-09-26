@@ -13,24 +13,24 @@
   <section>
     <div>
       <h1>Is your Birthday Lucky?🤔</h1>
-    <div class="container">
+      <form id="form">
   
       <div class="privacy">
-        <section>We won't store your personal details. <i class="fas fa-times"></i></section>
+        <small>Privacy Notice! We are not storing your data. <i class="fas fa-times"></i></small>
       </div>
   
         <label for="date-of-birth">Date Of Birth:
-            <input type="date" id="date-of-birth"/>
+            <input type="date" id="date-of-birth" required/>
         </label>
   
         <label for="lucky-number">Lucky Number:
-            <input type="number" id="lucky-number" placeholder="Enter a number"/>
+            <input type="number" id="lucky-number" placeholder="Enter a number" required autofocus min="1"/>
         </label>
-        <button id="check-number">Check Number</button>
+        <button id="submit">Check Number</button>
   
         <div id="output"></div>
   
-    </div>
+      </form>
   </div>
   </section>
 
